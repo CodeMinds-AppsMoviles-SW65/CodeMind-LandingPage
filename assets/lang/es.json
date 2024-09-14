@@ -40,5 +40,27 @@
   "testimony_4": "Antes de Temporaly, mi bandeja de entrada era como una piñata, llena de sorpresas (casi todas malas). Ahora todo está bajo control, ¡hasta puedo encontrar correos importantes!",
   "testimony_4_author": "Laura Martínez, estudiante universitaria",
   "testimony_5": "Temporaly ha sido una gran ayuda en mis estudios. Me inscribo en recursos académicos sin comprometer mi correo personal. Lo recomiendo a todos mis compañeros.",
-  "testimony_5_author": "Lucía Romero, estudiante universitaria"
+  "testimony_5_author": "Lucía Romero, estudiante universitaria",
+
+  "pricing_title": "Nuestros Planes",
+  "monthly": "Mensual",
+  "yearly": "Anual",
+  "basic_pack": "Básico",
+  "basic_feature_1": "10 minutos por correo temporal",
+  "basic_feature_2": "1 dominio disponible",
+  "basic_feature_3": "Historial de 3 correos",
+  "basic_feature_4": "Soporte limitado",
+  "start_free": "Empezar Gratis",
+  "pro_pack": "Pro",
+  "pro_feature_1": "30 minutos por correo temporal",
+  "pro_feature_2": "3 dominios disponibles",
+  "pro_feature_3": "Historial de 10 correos",
+  "pro_feature_4": "Soporte por chat",
+  "get_pro": "Obtener Pro",
+  "master_pack": "Master",
+  "master_feature_1": "60 minutos por correo temporal",
+  "master_feature_2": "Dominios ilimitados",
+  "master_feature_3": "Historial ilimitado",
+  "master_feature_4": "Soporte prioritario 24/7",
+  "get_master": "Obtener Master"
 }

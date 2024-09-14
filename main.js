@@ -104,3 +104,119 @@ checkbox.addEventListener("click", () => {
         master.textContent = "$25.00";
     }
 });
+
+
+let currentSlide = 0;
+const slides = document.querySelectorAll('.carousel-item');
+const totalSlides = slides.length;
+const carouselInner = document.querySelector('.carousel-inner');
+const paginationDots = document.querySelector('.carousel-pagination');
+
+// Crear puntos de paginación
+for (let i = 0; i < totalSlides; i++) {
+    const dot = document.createElement('span');
+    dot.classList.add('dot');
+    if (i === 0) dot.classList.add('active');
+    paginationDots.appendChild(dot);
+}
+
+const dots = document.querySelectorAll('.dot');
+
+
+// Ajustar la altura de todas las tarjetas para que coincidan con la tarjeta más alta
+function adjustCardHeight() {
+    let maxHeight = 0;
+    slides.forEach(slide => {
+        let card = slide.querySelector('.testimonial-card');
+        card.style.height = 'auto'; // Reseteamos el valor antes de calcular
+        let height = card.offsetHeight;
+        if (height > maxHeight) maxHeight = height;
+    });
+    slides.forEach(slide => {
+        slide.querySelector('.testimonial-card').style.height = `${maxHeight}px`;
+    });
+}
+
+// Función para actualizar el carrusel
+function updateCarousel() {
+    const slideWidth = slides[0].clientWidth;
+    const totalSlideWidth = slideWidth + 5; // Ajuste de separación entre tarjetas
+    const visibleArea = window.innerWidth;
+
+    // En pantallas pequeñas, mostrar solo una tarjeta
+    if (window.innerWidth <= 430) {
+        carouselInner.style.transform = `translateX(${-currentSlide * slideWidth}px)`;
+    } else {
+        const offset = (visibleArea - slideWidth) / 2; // Calcular el offset para centrar la tarjeta visible
+        carouselInner.style.transform = `translateX(${offset - (currentSlide * totalSlideWidth)}px)`;
+    }
+
+    updateDots();
+    adjustCardHeight();
+}
+
+// Función para actualizar los puntos de paginación
+function updateDots() {
+    dots.forEach(dot => dot.classList.remove('active'));
+    dots[currentSlide].classList.add('active');
+}
+
+// Mover al siguiente slide
+function moveToNextSlide() {
+    if (currentSlide < totalSlides - 1) {
+        currentSlide++;
+    } else {
+        currentSlide = 0;
+    }
+    updateCarousel();
+}
+
+// Mover al slide anterior
+function moveToPrevSlide() {
+    if (currentSlide > 0) {
+        currentSlide--;
+    } else {
+        currentSlide = totalSlides - 1;
+    }
+    updateCarousel();
+}
+
+// Inicializar el carrusel en la primera posición
+updateCarousel();
+
+// Ajustar el carrusel cuando se redimensiona la ventana
+window.addEventListener('resize', updateCarousel);
+
+// Configuración de auto-slide
+let slideInterval = setInterval(moveToNextSlide, 5000); // Cambiar de slide cada 5 segundos
+
+// Reiniciar el auto-slide cuando el usuario interactúe
+dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+        clearInterval(slideInterval); // Detener el auto-slide
+        currentSlide = index;
+        updateCarousel();
+        slideInterval = setInterval(moveToNextSlide, 5000); // Reiniciar el auto-slide
+    });
+});
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate-visible'); // Añade la clase cuando la sección es visible
+            }
+        });
+    }, {
+        threshold: 0.90 // Activa la animación cuando el 20% de la sección es visible
+    });
+
+    const elementsToAnimate = document.querySelectorAll('.js-animate');
+
+    elementsToAnimate.forEach(element => {
+        observer.observe(element); // Observa cada elemento que debe animarse
+    });
+});

@@ -40,6 +40,28 @@
   "testimony_4": "Before Temporaly, my inbox was like a piñata, full of surprises (most of them bad). Now everything is under control, and I can even find important emails!",
   "testimony_4_author": "Laura Martinez, university student",
   "testimony_5": "Temporaly has been a great help in my studies. I sign up for academic resources without compromising my personal email. I recommend it to all my classmates.",
-  "testimony_5_author": "Lucia Romero, university student"
+  "testimony_5_author": "Lucia Romero, university student",
+
+  "pricing_title": "Our Plans",
+  "monthly": "Monthly",
+  "yearly": "Yearly",
+  "basic_pack": "Basic",
+  "basic_feature_1": "10 minutes per temporary email",
+  "basic_feature_2": "1 domain available",
+  "basic_feature_3": "History of 3 emails",
+  "basic_feature_4": "Limited support",
+  "start_free": "Start Free",
+  "pro_pack": "Pro",
+  "pro_feature_1": "30 minutes per temporary email",
+  "pro_feature_2": "3 domains available",
+  "pro_feature_3": "History of 10 emails",
+  "pro_feature_4": "Chat support",
+  "get_pro": "Get Pro",
+  "master_pack": "Master",
+  "master_feature_1": "60 minutes per temporary email",
+  "master_feature_2": "Unlimited domains",
+  "master_feature_3": "Unlimited email history",
+  "master_feature_4": "24/7 priority support",
+  "get_master": "Get Master"
 }
 
