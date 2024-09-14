@@ -56,3 +56,24 @@ document.getElementById('lang-es-mobile').addEventListener('click', () => loadLa
 document.addEventListener('DOMContentLoaded', function() {
     loadLanguage('en');
 });
+
+// Función para generar un correo temporal aleatorio
+function generateTempEmail() {
+    const chars = 'abcdefghijklmnopqrstuvwxyz1234567890';
+    let randomString = '';
+    for (let i = 0; i < 10; i++) {
+        randomString += chars[Math.floor(Math.random() * chars.length)];
+    }
+    return randomString + '@temporaly.com';
+}
+
+// Colocar el correo temporal generado en el input
+document.getElementById('email').value = generateTempEmail();
+
+// Función para copiar el correo temporal al portapapeles
+document.getElementById('copy-btn').addEventListener('click', function() {
+    const emailField = document.getElementById('email');
+    emailField.select();
+    document.execCommand('copy');
+    alert('Correo temporal copiado: ' + emailField.value);
+});
