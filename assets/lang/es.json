@@ -27,5 +27,18 @@
 
   "app_title": "Lleva la Protección de tus Datos a Todos Tus Dispositivos",
   "app_description": "Descarga Temporaly y gestiona tus correos temporales de manera rápida y segura, sin complicaciones, estés donde estés.",
-  "app_available": "Disponible en Android y iOS."
+  "app_available": "Disponible en Android y iOS.",
+
+  "testimonials_title": "Lo que dicen nuestros usuarios",
+  "testimonials_description": "Miles de estudiantes y profesionales confían en Temporaly para proteger su información personal.",
+  "testimony_1": "Temporaly me permite registrarme en todas las plataformas de investigación sin preocuparme por el spam. Es perfecto para mantener mi bandeja de entrada limpia.",
+  "testimony_1_author": "Marcos Pérez, estudiante de secundaria",
+  "testimony_2": "Gracias a Temporaly, ya no tengo miedo de inscribirme en concursos sospechosos para ganar un iPhone. ¡Mi correo está seguro y mi suerte sigue intacta!",
+  "testimony_2_author": "Ana García, estudiante universitaria",
+  "testimony_3": "Con Temporaly, registro mi correo en plataformas educativas y eventos sin preocuparme por la seguridad de mi información personal. Es muy fácil de usar.",
+  "testimony_3_author": "David Hernández, estudiante de secundaria",
+  "testimony_4": "Antes de Temporaly, mi bandeja de entrada era como una piñata, llena de sorpresas (casi todas malas). Ahora todo está bajo control, ¡hasta puedo encontrar correos importantes!",
+  "testimony_4_author": "Laura Martínez, estudiante universitaria",
+  "testimony_5": "Temporaly ha sido una gran ayuda en mis estudios. Me inscribo en recursos académicos sin comprometer mi correo personal. Lo recomiendo a todos mis compañeros.",
+  "testimony_5_author": "Lucía Romero, estudiante universitaria"
 }

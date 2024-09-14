@@ -27,6 +27,19 @@
 
   "app_title": "Bring Data Protection to All Your Devices",
   "app_description": "Download Temporaly and manage your temporary emails quickly and securely, hassle-free, wherever you are.",
-  "app_available": "Available on Android and iOS."
+  "app_available": "Available on Android and iOS.",
+
+  "testimonials_title": "What our users are saying",
+  "testimonials_description": "Thousands of students and professionals trust Temporaly to protect their personal information.",
+  "testimony_1": "Temporaly allows me to register on all research platforms without worrying about spam. It's perfect for keeping my inbox clean.",
+  "testimony_1_author": "Marcos Perez, high school student",
+  "testimony_2": "Thanks to Temporaly, I'm no longer afraid to sign up for sketchy contests to win an iPhone. My email is safe, and my luck remains intact!",
+  "testimony_2_author": "Ana Garcia, university student",
+  "testimony_3": "With Temporaly, I register my email on educational platforms and events without worrying about the security of my personal information. It's very easy to use.",
+  "testimony_3_author": "David Hernandez, high school student",
+  "testimony_4": "Before Temporaly, my inbox was like a piñata, full of surprises (most of them bad). Now everything is under control, and I can even find important emails!",
+  "testimony_4_author": "Laura Martinez, university student",
+  "testimony_5": "Temporaly has been a great help in my studies. I sign up for academic resources without compromising my personal email. I recommend it to all my classmates.",
+  "testimony_5_author": "Lucia Romero, university student"
 }
 
