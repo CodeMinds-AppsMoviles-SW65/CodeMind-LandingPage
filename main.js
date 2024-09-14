@@ -78,3 +78,29 @@ document.getElementById('copy-btn').addEventListener('click', function() {
     alert('Correo temporal copiado: ' + emailField.value);
 });
 
+const checkbox = document.getElementById("checkbox");
+const professional = document.getElementById("professional");
+const master = document.getElementById("master");
+const basic = document.getElementById("basic");
+
+// Configurar los precios mensuales al cargar la página
+if (checkbox.checked) {
+    basic.textContent = "$0.00";
+    professional.textContent = "$15.00";
+    master.textContent = "$25.00";
+}
+
+checkbox.addEventListener("click", () => {
+    if (checkbox.checked) {
+        // Precios anuales (con descuento)
+        basic.textContent = "$0.00";
+        professional.textContent = "$180.00";
+        master.textContent = "$375.00";
+
+    } else {
+        // Precios mensuales
+        basic.textContent = "$0.00";
+        professional.textContent = "$15.00";
+        master.textContent = "$25.00";
+    }
+});
