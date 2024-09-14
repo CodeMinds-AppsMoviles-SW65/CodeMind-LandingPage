@@ -23,5 +23,9 @@
   "feature_2_title": "Correos Automáticos y Gestionados",
   "feature_2_description": "Crea y gestiona correos temporales automáticamente con un solo clic. Olvídate de hacer configuraciones complicadas; nosotros lo hacemos por ti.",
   "feature_3_title": "Historial de Uso Seguro",
-  "feature_3_description": "Accede al historial de correos temporales que has utilizado, mantén el control de tus registros y actividades de manera segura y privada."
+  "feature_3_description": "Accede al historial de correos temporales que has utilizado, mantén el control de tus registros y actividades de manera segura y privada.",
+
+  "app_title": "Lleva la Protección de tus Datos a Todos Tus Dispositivos",
+  "app_description": "Descarga Temporaly y gestiona tus correos temporales de manera rápida y segura, sin complicaciones, estés donde estés.",
+  "app_available": "Disponible en Android y iOS."
 }
