@@ -9,6 +9,10 @@
   "hero_description": "Olvídate del spam y protege tus datos personales mientras navegas y estudias. Con Temporaly, crea correos temporales en segundos, manteniendo tu privacidad en cada paso.",
   "hero_button": "Empezar",
   "trusted_by": "CONFIADO POR ESTUDIANTES Y PROFESIONALES",
-  "hero_image": "assets/Home_img_es.png"
+  "hero_image": "assets/Home_img_es.png",
 
+  "email_title": "Crea tu Correo Temporal al Instante",
+  "email_description": "A pesar de que puedes generar un correo temporal con solo un clic, con <strong>Temporaly</strong> llevas la protección un paso más allá, asegurando que tus datos personales estén protegidos en cada rincón de la web.",
+  "copy_button": "Copiar",
+  "email_small": "Prueba esta función básica y descubre cómo con CodeMinds puedes aumentar tu seguridad en línea con protección automática y privacidad avanzada."
 }

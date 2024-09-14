@@ -191,3 +191,78 @@
 .trusted-logos img:hover {
     opacity: 1; /* Efecto hover para mejorar la visibilidad del logo */
 }
+
+
+/* Sección de email */
+
+.email-section {
+    width: 100%;
+    padding: 60px 20px;
+    background-color: #f7f7ff;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.email-container {
+    width: 100%;
+    max-width: 10000px; /* Controla el ancho máximo del contenedor */
+    padding-left: 60px;
+    padding-right: 40px;
+    text-align: left;
+}
+
+.email-container h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #123672;
+    margin-bottom: 10px;
+}
+
+.email-container p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.email-input-wrapper {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.email-input-wrapper input {
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.email-input-wrapper button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #2979FF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.email-input-wrapper button:hover {
+    background-color: #123672;
+}
+
+.email-container small {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: #888;
+    display: block;
+    margin-top: 20px;
+    text-align: left;
+}
