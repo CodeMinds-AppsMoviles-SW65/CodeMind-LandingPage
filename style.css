@@ -1054,3 +1054,441 @@ body {
         margin-top: 10px; /* Añade espacio superior para separarlos del contenido anterior */
     }
 }
+
+/* Para pantallas de hasta 430px (iPhone 14 Pro Max) */
+@media (max-width: 430px) {
+
+
+    .logo img {
+        height: 35px;
+    }
+
+    .mobile-lang-switcher .lang-btn {
+        font-size: 0.9rem;
+    }
+
+    /* Sección Hero */
+    .hero-section {
+        padding: 40px 15px;
+    }
+
+    .hero-content {
+        flex-direction: column; /* Coloca el contenido en columna */
+        text-align: center;
+        align-items: center;
+        max-width: 100%; /* Evita que el contenido sobrepase la pantalla */
+        overflow: hidden;
+    }
+
+    .hero-left {
+        margin-bottom: 20px;
+    }
+
+    .hero-left .hero-image {
+        max-width: 90%; /* Asegura que la imagen no se salga de la pantalla */
+        border-radius: 10px;
+    }
+
+    .hero-right h1 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .hero-right p {
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        font-size: 1rem;
+        padding: 10px 15px;
+        max-width: 90%; /* Evita que el botón se desborde */
+    }
+
+    /* Logos confiados */
+    .trusted-section {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .trusted-section p {
+        font-size: 0.85rem;
+    }
+
+    .trusted-logos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; /* Permite que los logos se envuelvan en varias líneas */
+        gap: 15px; /* Espacio reducido entre los logos */
+    }
+
+    .trusted-logos img {
+        flex: 0 1 50%; /* Los logos ocuparán hasta el 40% del ancho disponible */
+        max-width: 110px; /* Mantiene un tamaño máximo razonable para los logos */
+        margin-bottom: 10px; /* Añade un margen inferior para separar los logos entre sí verticalmente */
+    }
+
+
+    /*Seccion correo*/
+    .email-section {
+        padding: 40px 20px;
+        justify-content: center; /* Centramos la sección en pantallas pequeñas */
+    }
+
+    .email-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 100%; /* El contenedor ocupa todo el ancho disponible */
+        text-align: center; /* El contenido dentro del contenedor se alinea al centro */
+    }
+
+    .email-container h1 {
+        font-size: 2rem; /* Reducimos el tamaño del título en pantallas pequeñas */
+    }
+
+    .email-container p {
+        font-size: 1.3rem; /* Reducimos el tamaño del texto */
+        margin-bottom: 30px;
+    }
+
+    .email-input-wrapper {
+        display: flex; /* Cambiamos a flex para mejor disposición horizontal */
+        justify-content: center; /* Centramos el contenido horizontalmente */
+        gap: 10px; /* Espacio entre el input y el botón */
+    }
+
+    .email-input-wrapper input {
+        width: 80%; /* Aumentamos el ancho del input */
+        padding: 15px; /* Aumentamos el padding para que sea más alto */
+        font-size: 1.2rem; /* Aumentamos el tamaño del texto dentro del input */
+        margin-right: 10px; /* Añadimos espacio entre el input y el botón */
+        box-sizing: border-box; /* Aseguramos que el padding no afecte al ancho */
+    }
+
+    .email-input-wrapper button {
+        width: 20%; /* Reducimos el ancho del botón */
+        padding: 10px; /* Ajustamos el padding para que sea más pequeño */
+        font-size: 1rem; /* Mantenemos el tamaño de fuente adecuado */
+        box-sizing: border-box; /* Asegura que el padding no afecte al ancho */
+    }
+
+    .email-container {
+        text-align: center; /* Centra todo el contenido de la sección */
+    }
+
+    .email-container small {
+        text-align: center; /* Centra el texto debajo del input y el botón */
+        display: block;
+        margin-top: 10px;
+    }
+
+    /* Sección App */
+    .app-section {
+        animation: fadeIn 1s ease-out; /* Fade in al cargar la sección */
+        padding: 30px 20px;
+        padding-bottom: 100px; /* Agrega 60px de espacio adicional solo en la parte inferior */
+    }
+
+    .app-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px; /* Espacio entre los elementos */
+
+    }
+
+    .app-left {
+        padding: 0 15px; /* Añade padding en los lados para evitar que el texto se acerque a los bordes */
+    }
+
+    .app-left h2 {
+        font-size: 1.6rem;
+        animation: slideInFromLeft 0.8s ease-out; /* Desliza el texto desde la izquierda */
+    }
+
+    .app-left p {
+        font-size: 0.95rem;
+        animation: fadeInUp 0.9s ease-out; /* Desliza el párrafo hacia arriba */
+    }
+
+    .app-download {
+        gap: 10px;
+        justify-content: center;
+        animation: fadeInUp 1s ease-out; /* Desliza el párrafo hacia arriba */
+    }
+
+    .download-info {
+        font-size: 0.7rem;
+    }
+
+    .store-icon {
+        width: 60px;
+        height: 60px;
+        transition: transform 0.3s ease; /* Suaviza el agrandamiento de los íconos */
+    }
+
+    .store-icon:hover {
+        transform: scale(1.1); /* Agranda los íconos al pasar el mouse por encima */
+    }
+
+    .back-phone {
+        max-width: 200px;
+        top: 0px;
+        left: -30px;
+        animation: slideInFromLeft 1.2s ease-out; /* Desliza el teléfono de fondo desde la izquierda */
+    }
+
+    .front-phone {
+        max-width: 190px;
+        top: 80px;
+        left: 70px;
+        animation: slideInFromRight 1.2s ease-out; /* Desliza el teléfono delantero desde la derecha */
+    }
+
+    .download-info {
+        font-size: 0.7rem;
+    }
+    /*Seccion usuarios*/
+    .carousel-inner {
+        padding: 0; /* Elimina el espacio en los lados para móviles */
+        gap: 5px; /* Espacio entre tarjetas en móviles */
+    }
+
+    .carousel-item {
+        flex: 0 0 100%; /* Tarjetas ocupan todo el ancho en móviles */
+        height: auto; /* Ajuste automático del alto según contenido */
+    }
+
+    .testimonial-card {
+        max-width: 350px; /* Ajusta el ancho de las tarjetas para móviles */
+        height: auto; /* Mantiene el alto según contenido */
+        padding: 15px; /* Espaciado interno compacto pero visible */
+        border-radius: 8px; /* Mantener bordes redondeados */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para destacar las tarjetas */
+        margin: 0 auto;
+        text-align: left;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .user-avatar {
+        width: 70px; /* Ajuste de tamaño del avatar para móviles */
+        height: 70px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 0px; /* Margen para alinear al texto */
+        float: left; /* Avatar a la izquierda del texto */
+    }
+
+    .quote-icon {
+        font-size: 2rem; /* Ajuste de tamaño del icono de comillas */
+        color: #2979FF;
+        margin-left: 10px; /* Alineación cercana al avatar */
+        float: left; /* Posiciona las comillas al lado del avatar */
+        margin-top: 10px;
+    }
+
+    .testimonial-card p {
+        font-size: 1rem;
+        color: #555;
+        line-height: 1.4;
+        margin-top: 90px; /* Ajuste de margen superior debajo del avatar */
+        margin-left: 0; /* Debajo del avatar */
+        margin-right: 5px;
+    }
+
+    .testimonial-card h4 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #123672;
+        margin-top: 10px; /* Espaciado superior */
+        margin-bottom: 10px; /* Espaciado inferior */
+        margin-left: 0; /* Alineado con el texto */
+    }
+
+    .social-icons {
+        margin-top: 10px;
+        display: flex;
+        gap: 10px;
+        justify-content: flex-start; /* Alineado debajo del nombre del usuario */
+    }
+
+    .social-icons i {
+        font-size: 1.2rem;
+        color: #2979FF;
+        transition: color 0.3s ease;
+    }
+
+    .social-icons i:hover {
+        color: #123672;
+    }
+    /*Seccion Plans*/
+
+    /* Sección Contact */
+    .contact-section {
+        padding: 40px 15px; /* Reduce padding para pantallas pequeñas */
+    }
+
+    .contact-content {
+        flex-direction: column;
+        text-align: center; /* Centra todo el contenido para pantallas pequeñas */
+        gap: 20px;
+    }
+
+    .contact-left, .contact-right {
+        margin: 0; /* Elimina los márgenes laterales en pantallas pequeñas */
+        text-align: center; /* Asegura que el texto esté centrado */
+    }
+
+    .contact-left h2 {
+        font-size: 1.8rem; /* Reduce el tamaño del título en pantallas pequeñas */
+    }
+
+    .contact-left p {
+        font-size: 1rem;
+    }
+
+    .form-row {
+        flex-direction: column; /* Hace que los inputs se alineen en una sola columna */
+    }
+
+    .form-row input {
+        width: 100%; /* Asegura que los inputs ocupen todo el ancho en pantallas pequeñas */
+    }
+
+    .contact-right iframe {
+        height: 300px; /* Ajusta la altura del iframe en pantallas pequeñas */
+    }
+
+    .btn-submit {
+        width: 100%; /* Asegura que el botón ocupe todo el ancho disponible */
+        padding: 15px;
+    }
+
+    /* Sección de testimonios */
+    .carousel-inner {
+        padding: 0; /* Elimina el espacio en los lados para móviles */
+        gap: 2px; /* Espacio entre tarjetas en móviles */
+    }
+
+    .testimonial-card {
+        max-width: 350px; /* Ajusta el ancho de las tarjetas para móviles */
+        height: auto; /* Mantiene el alto según contenido */
+        padding: 15px; /* Espaciado interno compacto pero visible */
+        border-radius: 8px; /* Mantener bordes redondeados */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para destacar las tarjetas */
+        margin: 0 auto;
+        text-align: left;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .user-avatar {
+        width: 70px; /* Ajuste de tamaño del avatar para móviles */
+        height: 70px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 0px; /* Margen para alinear al texto */
+        float: left; /* Avatar a la izquierda del texto */
+    }
+
+    .quote-icon {
+        font-size: 2rem; /* Ajuste de tamaño del icono de comillas */
+        color: #2979FF;
+        margin-left: 10px; /* Alineación cercana al avatar */
+        float: left; /* Posiciona las comillas al lado del avatar */
+        margin-top: 10px;
+    }
+
+    .testimonial-card p {
+        font-size: 1rem;
+        color: #555;
+        line-height: 1.4;
+        margin-top: 90px; /* Ajuste de margen superior debajo del avatar */
+        margin-left: 0; /* Debajo del avatar */
+        margin-right: 5px;
+    }
+
+    .testimonial-card h4 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #123672;
+        margin-top: 10px; /* Espaciado superior */
+        margin-bottom: 10px; /* Espaciado inferior */
+        margin-left: 0; /* Alineado con el texto */
+    }
+
+    .social-icons {
+        margin-top: 10px;
+        display: flex;
+        gap: 10px;
+        justify-content: flex-start; /* Alineado debajo del nombre del usuario */
+    }
+
+    .social-icons i {
+        font-size: 1.2rem;
+        color: #2979FF;
+        transition: color 0.3s ease;
+    }
+
+    .social-icons i:hover {
+        color: #123672;
+    }
+
+
+
+    .features-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .features-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .features-section p {
+        font-size: 1rem;
+    }
+
+    .feature-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .feature-card p {
+        font-size: 0.95rem;
+    }
+
+    .feature-icon img {
+        max-width: 50px;
+    }
+
+    .footer-col h4 {
+        font-size: 1.2rem;
+    }
+
+
+    .footer-col p,
+    .footer-col ul li {
+        font-size: 0.9rem;
+    }
+
+    .social-footer {
+        justify-content: center;
+        gap: 8px; /* Espacio entre íconos reducido para móviles */
+    }
+
+    .social-footer a {
+        font-size: 1.3rem; /* Tamaño más pequeño para pantallas móviles */
+    }
+
+}
+
+/* Si hay contenido que se sale de los bordes en pantallas muy pequeñas, usamos overflow hidden */
+body {
+    overflow-x: hidden;
+}
