@@ -77,3 +77,4 @@ document.getElementById('copy-btn').addEventListener('click', function() {
     document.execCommand('copy');
     alert('Correo temporal copiado: ' + emailField.value);
 });
+
