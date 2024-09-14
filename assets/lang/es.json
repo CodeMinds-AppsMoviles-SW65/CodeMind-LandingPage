@@ -69,5 +69,14 @@
   "name_placeholder": "Nombre",
   "email_placeholder": "Correo Electrónico",
   "message_placeholder": "Escribe tu mensaje aquí...",
-  "send_message": "Enviar Mensaje"
+  "send_message": "Enviar Mensaje",
+
+  "footer_title": "TEMPORALY",
+  "footer_description": "Únete a Temporaly y protege tu identidad en línea mediante correos temporales rápidos y seguros.",
+  "contact_title": "Contacto",
+  "email": "soporte@temporaly.com",
+  "footer_schedule": "Horario: Lunes a Viernes, 8:00 - 18:00",
+  "location_title": "Ubicación",
+  "location_address": "Prolongación Primavera 2390, Santiago de Surco, Lima",
+  "footer_rights": "Todos los derechos reservados."
 }

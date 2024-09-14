@@ -69,6 +69,15 @@
   "name_placeholder": "Name",
   "email_placeholder": "Email",
   "message_placeholder": "Write your message here...",
-  "send_message": "Send Message"
+  "send_message": "Send Message",
+
+  "footer_title": "TEMPORALY",
+  "footer_description": "Join Temporaly and protect your online identity with fast and secure temporary emails.",
+  "contact_title": "Contact",
+  "email": "support@temporaly.com",
+  "footer_schedule": "Schedule: Monday to Friday, 8:00 AM - 6:00 PM",
+  "location_title": "Location",
+  "location_address": "Prolongation Primavera 2390, Santiago de Surco, Lima",
+  "footer_rights": "All rights reserved."
 }
 
