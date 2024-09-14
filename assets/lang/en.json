@@ -62,6 +62,13 @@
   "master_feature_2": "Unlimited domains",
   "master_feature_3": "Unlimited email history",
   "master_feature_4": "24/7 priority support",
-  "get_master": "Get Master"
+  "get_master": "Get Master",
+
+  "contact_title1": "Contact Us",
+  "contact_info": "If you have any questions about Temporaly or need assistance, please complete the form below and we will get back to you as soon as possible.",
+  "name_placeholder": "Name",
+  "email_placeholder": "Email",
+  "message_placeholder": "Write your message here...",
+  "send_message": "Send Message"
 }
 

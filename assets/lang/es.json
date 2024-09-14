@@ -62,5 +62,12 @@
   "master_feature_2": "Dominios ilimitados",
   "master_feature_3": "Historial ilimitado",
   "master_feature_4": "Soporte prioritario 24/7",
-  "get_master": "Obtener Master"
+  "get_master": "Obtener Master",
+
+  "contact_title1": "Contáctanos",
+  "contact_info": "Si tienes alguna pregunta sobre Temporaly o necesitas asistencia, completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.",
+  "name_placeholder": "Nombre",
+  "email_placeholder": "Correo Electrónico",
+  "message_placeholder": "Escribe tu mensaje aquí...",
+  "send_message": "Enviar Mensaje"
 }
