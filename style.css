@@ -1,0 +1,101 @@
+/* Estilos básicos del navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.language-switcher {
+    display: flex;
+}
+
+.lang-btn {
+    background-color: #2979FF;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.lang-btn.active {
+    background-color: #123672;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+/* Menú desplegable para móviles */
+.mobile-nav-dropdown {
+    display: none; /* Oculto por defecto */
+    position: absolute;
+    top: 60px; /* Espacio debajo del toolbar */
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    max-width: 300px; /* Ancho fijo para el menú desplegable */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 999;
+}
+
+.mobile-nav-dropdown a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+}
+
+.mobile-nav-dropdown a:hover {
+    background-color: #f0f0f0;
+}
+
+.mobile-lang-switcher {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.mobile-lang-switcher .lang-btn {
+    font-size: 1rem;
+    margin: 0 10px;
+}
+
+/* Estilos responsive */
+@media (max-width: 768px) {
+    .nav-links, .language-switcher {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        font-size: 1.5rem;
+        color: #333;
+    }
+}

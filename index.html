@@ -1,10 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crea tu Correo Temporal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+
+
 </head>
 <body>
 
-</body>
-</html>
+<header class="navbar">
+  <div class="navbar-container">
+    <div class="logo">
+      <img src="assets/logo.png" alt="Temporaly Logo">
+    </div>
+    <nav class="nav-links">
+      <a href="#home" data-i18n="home">Home</a>
+      <a href="#features" data-i18n="features">Features</a>
+      <a href="#app" data-i18n="app">App</a>
+      <a href="#testimonials" data-i18n="testimonials">Testimonials</a>
+      <a href="#pricing" data-i18n="pricing">Pricing</a>
+      <a href="#contact" data-i18n="contact">Contact Us</a>
+    </nav>
+    <div class="language-switcher">
+      <button id="lang-es" class="lang-btn">ES</button>
+      <button id="lang-en" class="lang-btn active">EN</button>
+    </div>
+    <div class="menu-toggle">
+      <i class="ri-menu-line"></i> <!-- Icono del menú hamburguesa -->
+    </div>
+  </div>
+  <!-- Menú desplegable para móviles -->
+  <nav class="mobile-nav-dropdown">
+    <a href="#home" data-i18n="home">Home</a>
+    <a href="#features" data-i18n="features">Features</a>
+    <a href="#app" data-i18n="app">App</a>
+    <a href="#testimonials" data-i18n="testimonials">Testimonials</a>
+    <a href="#pricing" data-i18n="pricing">Pricing</a>
+    <a href="#contact" data-i18n="contact">Contact Us</a>
+    <div class="mobile-lang-switcher">
+      <button id="lang-es-mobile" class="lang-btn">ES</button>
+      <button id="lang-en-mobile" class="lang-btn active">EN</button>
+    </div>
+  </nav>
+</header>
+
