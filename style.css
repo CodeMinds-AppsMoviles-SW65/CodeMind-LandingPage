@@ -99,3 +99,95 @@
         color: #333;
     }
 }
+
+/* Sección Hero */
+.hero-section {
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.hero-left .hero-image {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+}
+.hero-left {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-right {
+    max-width: 600px;
+}
+
+.hero-right h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.hero-right .highlight {
+    color: #2979FF;
+}
+
+.hero-right p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 20px 0;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #2979FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #123672;
+}
+
+/* Sección "Confiado por estudiantes y profesionales" */
+.trusted-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.trusted-section p {
+    font-size: 0.9rem;
+    color: #999;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de los logos */
+.trusted-logos {
+    display: flex;
+    justify-content: space-around; /* Espacio igual entre los logos */
+    align-items: center;
+    gap: 50px; /* Espacio entre los logos */
+}
+
+.trusted-logos img {
+    max-width: 130px; /* Tamaño de los logos */
+    opacity: 0.6; /* Transparencia de los logos */
+    transition: opacity 0.3s ease;
+}
+
+.trusted-logos img:hover {
+    opacity: 1; /* Efecto hover para mejorar la visibilidad del logo */
+}
