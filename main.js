@@ -45,3 +45,14 @@ function loadLanguage(lang) {
             document.getElementById(`lang-${lang}`).classList.add('active');
         }).catch(error => console.error('Error loading the language file:', error));
 }
+
+// Listeners para los botones de idioma
+document.getElementById('lang-en').addEventListener('click', () => loadLanguage('en'));
+document.getElementById('lang-es').addEventListener('click', () => loadLanguage('es'));
+document.getElementById('lang-en-mobile').addEventListener('click', () => loadLanguage('en'));
+document.getElementById('lang-es-mobile').addEventListener('click', () => loadLanguage('es'));
+
+// Inicializa el idioma por defecto al cargar la página (Inglés)
+document.addEventListener('DOMContentLoaded', function() {
+    loadLanguage('en');
+});

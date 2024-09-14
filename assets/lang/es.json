@@ -1,0 +1,14 @@
+{
+  "home": "Inicio",
+  "product": "Producto",
+  "customers": "Clientes",
+  "pricing": "Precios",
+  "contact": "Contáctenos",
+
+  "hero_title": "Protege tu Privacidad en Línea con <span class='highlight'>Temporaly</span>",
+  "hero_description": "Olvídate del spam y protege tus datos personales mientras navegas y estudias. Con Temporaly, crea correos temporales en segundos, manteniendo tu privacidad en cada paso.",
+  "hero_button": "Empezar",
+  "trusted_by": "CONFIADO POR ESTUDIANTES Y PROFESIONALES",
+  "hero_image": "assets/Home_img_es.png"
+
+}

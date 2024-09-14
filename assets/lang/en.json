@@ -1,0 +1,15 @@
+{
+  "home": "Home",
+  "product": "Product",
+  "customers": "Customers",
+  "pricing": "Pricing",
+  "contact": "Contact Us",
+
+  "hero_title": "Protect Your Online Privacy with <span class='highlight'>Temporaly</span>",
+  "hero_description": "Forget spam and protect your personal data while browsing and studying. With Temporaly, create temporary emails in seconds, maintaining your privacy at every step.",
+  "hero_button": "Get Started",
+  "trusted_by": "TRUSTED BY STUDENTS AND PROFESSIONALS",
+  "hero_image": "assets/Home_img_en.png"
+
+}
+
