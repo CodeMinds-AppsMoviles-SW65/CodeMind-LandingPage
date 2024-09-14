@@ -14,5 +14,14 @@
   "email_title": "Crea tu Correo Temporal al Instante",
   "email_description": "A pesar de que puedes generar un correo temporal con solo un clic, con <strong>Temporaly</strong> llevas la protección un paso más allá, asegurando que tus datos personales estén protegidos en cada rincón de la web.",
   "copy_button": "Copiar",
-  "email_small": "Prueba esta función básica y descubre cómo con CodeMinds puedes aumentar tu seguridad en línea con protección automática y privacidad avanzada."
+  "email_small": "Prueba esta función básica y descubre cómo con CodeMinds puedes aumentar tu seguridad en línea con protección automática y privacidad avanzada.",
+
+  "features_title": "Características Principales de Temporaly",
+  "features_description": "Conoce algunas de las funcionalidades que te ofrecemos en nuestra plataforma.",
+  "feature_1_title": "Privacidad Inteligente",
+  "feature_1_description": "Protección continua de tus datos personales mientras navegas, estudias o te registras en plataformas, evitando el spam y la recolección de datos.",
+  "feature_2_title": "Correos Automáticos y Gestionados",
+  "feature_2_description": "Crea y gestiona correos temporales automáticamente con un solo clic. Olvídate de hacer configuraciones complicadas; nosotros lo hacemos por ti.",
+  "feature_3_title": "Historial de Uso Seguro",
+  "feature_3_description": "Accede al historial de correos temporales que has utilizado, mantén el control de tus registros y actividades de manera segura y privada."
 }

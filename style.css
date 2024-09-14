@@ -266,3 +266,73 @@
     margin-top: 20px;
     text-align: left;
 }
+
+/* Sección de Características */
+.features-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.features-section h2 {
+    font-size: 2.5rem;
+    color: #123672;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.features-section p {
+    font-size: 1.3rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.feature-card {
+    flex: 1;
+    background-color: #fff;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.4s ease; /* Transición suave */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.feature-card:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Sombra más intensa al hacer hover */
+    border-color: rgba(41, 122, 255, 0.46); /* El borde ahora es un color sólido azul al hacer hover */
+    transform: translateY(-5px); /* La tarjeta se eleva un poco */
+}
+
+.feature-icon {
+    margin-bottom: 20px;
+}
+
+.feature-icon img {
+    max-width: 60px;
+    height: auto;
+    transition: transform 0.4s ease; /* Transición suave al hacer hover */
+}
+
+.feature-card:hover .feature-icon img {
+    transform: scale(1.2); /* Agranda la imagen un poco más */
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    color: rgba(41, 121, 255, 0.82);
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.feature-card p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
